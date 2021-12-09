@@ -104,6 +104,7 @@ main {
   max-width: 700px;
   margin: auto;
   
+  
 }
 
 #articuloPrincipal {
@@ -111,20 +112,10 @@ main {
 }
 
 #articuloContenido {
-  background-color: #e77f4b;
+  
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  text-align: auto;
-}
-
-#articuloContenido div {
-  max-width: auto;
-}
-#articuloContenido img {
-  width: 400px;
+  
 }
 
 #formularioContacto {
