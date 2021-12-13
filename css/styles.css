@@ -104,6 +104,10 @@ main {
   /*en linea ****/
   display: flex;
   flex-direction: row;
+  
+}
+.containerRow img{
+  width: 350px;
 }
 .containerColumn{
   /*en columna  * 
