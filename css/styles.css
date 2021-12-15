@@ -171,14 +171,15 @@ footer img {
   width: 100px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 400px) {
   .main-wrapper {
     grid-template-areas:
-      "nav nav nav"
-      "header header header"
-      "main main main"
-      "footer footer footer";
+      "nav"
+      "header"
+      "main"
+      "footer";
   }
+  
 
   nav {
     flex-direction: row;
@@ -187,5 +188,15 @@ footer img {
 
   nav ul li {
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-wrapper {
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
   }
 }
