@@ -29,6 +29,7 @@
   color: white;
   margin-bottom: 30px;
   margin-top: 30px;
+  margin-left: 100px;
 }
 
 .contenedorVinculos {
@@ -84,11 +85,16 @@ header {
 }
 
 /*main*/
-
+body{
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh;
+}
 main {
   grid-area: main;
-  max-width: 700px;
-  margin: auto;
+  width: 90vw;
+  margin: 0,auto;
+  padding: 30px 20px;
 }
 
 #articuloPrincipal {
@@ -140,8 +146,13 @@ footer {
   grid-area: footer;
   color: white;
   display: flex;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #005fa3;
 }
 
@@ -170,6 +181,7 @@ footer a:hover {
 footer img {
   width: 100px;
 }
+
 
 @media screen and (max-width: 400px) {
   .main-wrapper {
