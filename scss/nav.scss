@@ -1,0 +1,34 @@
+// Nav //
+/*nav*/
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005fa3;
+  h2{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+}
+.navImg {
+  width: 150px;
+}
+
+.contenedorVinculos {
+  padding: 9px 25px;
+  background-color: #005fa3;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0.1s;
+}
+
+.contenedorVinculos:hover {
+  background-color: #e77f4b;
+  color: #005fa3;
+}

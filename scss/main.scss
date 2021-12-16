@@ -1,0 +1,53 @@
+//Main//
+/*Main*/
+
+main {
+  grid-area: main;
+  width: 90vw;
+  margin: auto, auto;
+  padding: 30px 100px;
+}
+
+#articuloPrincipal {
+  text-align: center;
+}
+
+#articuloContenido {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerRow {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 350px;
+  }
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.orientacionImagenFlota {
+  display: flex;
+  justify-content: space-between;
+}
+
+#formularioContacto {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+
+  text-align: auto;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: auto;
+  }
+}

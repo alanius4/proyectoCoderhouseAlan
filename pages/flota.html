@@ -21,33 +21,35 @@
   <body>
     <div class="main-wrapper">
       <!--nav-->
+
       <nav class="navbar navbar-expand-lg navbar nav">
         <div class="container-fluid">
-          <img class="navImg" src="../images/logo.jpg" alt="logo pic" />
-          <h2>Transporte Web</h2>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img class="navImg" src="../images/logo.jpg" alt="logo pic" />
+              </li>
+              <li class="nav-item">
+                <h2>Transporte Web</h2>
+              </li>
+            </ul>
+
+            <div class="d-flex">
               <a class="nav-link active contenedorVinculos" href="../index.html"
                 >Inicio</a
               >
-              <a
-                class="nav-link active contenedorVinculos"
-                href="../pages/nosotros.html"
+              <a class="nav-link active contenedorVinculos" href="nosotros.html"
                 >Nosotros</a
               >
               <a
                 class="nav-link active contenedorVinculos"
-                href="../pages/servicios.html"
+                href="servicios.html"
                 >Servicios</a
               >
-              <a
-                class="nav-link active contenedorVinculos"
-                href="../pages/flota.html"
+              <a class="nav-link active contenedorVinculos" href="flota.html"
                 >Flota</a
               >
-              <a
-                class="nav-link active contenedorVinculos"
-                href="../pages/contacto.html"
+              <a class="nav-link active contenedorVinculos" href="contacto.html"
                 >Contacto</a
               >
             </div>
@@ -55,53 +57,21 @@
         </div>
       </nav>
 
-      <header>
-        <div class="container">
-          <!--imagenes separan header-->
-          <div class="card">
-            <div
-              class="img-wrapper"
-              style="background-image: url('../images/galpon 1.jpg')"
-            ></div>
-          </div>
-          <div class="card">
-            <div
-              class="img-wrapper"
-              style="background-image: url('../images/puerto contenedores.jpg')"
-            ></div>
-          </div>
-          <div class="card">
-            <div
-              class="img-wrapper"
-              style="
-                background-image: url('../images/puerto contenedores 2.jpg');
-              "
-            ></div>
-          </div>
-          <div class="card">
-            <div
-              class="img-wrapper"
-              style="background-image: url('../images/gruas.jpg')"
-            ></div>
-          </div>
-        </div>
-      </header>
-      <!--arreglar
-En flota para poner dos y dos cards tenes que generar
- un div que sea row, poner dos cards adentro que tengan la clase 
- col, y despues lo mismo con los otros dos de abajo. -->
+      <!--main-->
       <main>
         <section id="articuloPrincipal">
           <h2>Flota</h2>
         </section>
 
-        <section>
+        <section class="orientacionImagenFlota">
+
+
           <div class="containerRow">
             <div class="card" style="width: 20rem">
               <img
                 src="../images/portacontenedores.jpg"
                 alt="portacontenedores"
-                class="card-img-top"
+                class="card-img-top "
               />
               <div class="card-body">
                 <h5 class="card-title">Portacontenedores</h5>
@@ -157,6 +127,8 @@ En flota para poner dos y dos cards tenes que generar
         </section>
       </main>
 
+      <!--footer-->
+
       <footer>
         <img src="../images/logo.jpg" alt="logo" />
 
@@ -164,23 +136,24 @@ En flota para poner dos y dos cards tenes que generar
 
         <ul>
           <li>
-            <a href="index.html">Inicio</a>
+            <a href="../index.html">Inicio</a>
           </li>
           <li>
-            <a href="pages/nosotros.html">Nosotros</a>
+            <a href="nosotros.html">Nosotros</a>
           </li>
           <li>
-            <a href="pages/servicios.html">Servicios</a>
+            <a href="servicios.html">Servicios</a>
           </li>
           <li>
-            <a href="pages/flota.html">Flota</a>
+            <a href="flota.html">Flota</a>
           </li>
           <li>
-            <a href="pages/contacto.html">Contacto</a>
+            <a href="contacto.html">Contacto</a>
           </li>
         </ul>
       </footer>
     </div>
+
     <!-- link js bootstrap -->
 
     <script

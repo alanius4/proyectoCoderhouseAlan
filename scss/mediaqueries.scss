@@ -1,0 +1,31 @@
+//Media Queries//
+/*Media Queries*/
+
+
+@media screen and (max-width: 400px) {
+  .main-wrapper {
+    grid-template-areas:
+      "nav"
+      "main"
+      "footer";
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-wrapper {
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
+  }
+}

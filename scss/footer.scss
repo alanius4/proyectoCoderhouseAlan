@@ -1,0 +1,43 @@
+// Footer //
+/*Footer*/
+
+footer {
+  grid-area: footer;
+  color: white;
+  display: flex;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #005fa3;
+
+  p {
+    text-align: center;
+  }
+  ul {
+    li {
+      display: inline-block;
+    }
+  }
+
+  a {
+    padding: 6px 20px;
+    background-color: #005fa3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease 0.1s;
+  }
+
+  a:hover {
+    color: #e77f4b;
+  }
+
+  img {
+    width: 100px;
+  }
+}
