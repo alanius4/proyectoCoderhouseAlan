@@ -50,40 +50,34 @@ main {
   width: 90vw;
   margin: auto, auto;
   padding: 30px 100px; }
-
-#articuloPrincipal {
-  text-align: center; }
-
-#articuloContenido {
-  display: flex;
-  flex-direction: row; }
-
-.containerRow {
-  display: flex;
-  flex-direction: row; }
-  .containerRow img {
-    width: 350px; }
-
-.containerColumn {
-  display: flex;
-  flex-direction: column; }
-
-.orientacionImagenFlota {
-  display: flex;
-  justify-content: space-between; }
-
-#formularioContacto {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: center;
-  text-align: auto; }
-  #formularioContacto div {
+  main #articuloPrincipal {
+    text-align: center; }
+  main #articuloContenido {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row; }
+  main .containerRow {
+    display: flex;
+    flex-direction: row; }
+    main .containerRow img {
+      width: 350px; }
+  main .containerColumn {
+    display: flex;
+    flex-direction: column; }
+  main .orientacionImagenFlota {
+    display: flex;
+    justify-content: space-between; }
+  main #formularioContacto {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
     text-align: auto; }
+    main #formularioContacto div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: auto; }
 
 /*Footer*/
 footer {

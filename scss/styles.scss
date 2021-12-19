@@ -11,6 +11,8 @@
   grid-gap: 20px;
 }
 
+
+
 //separador//
 
 .separador {
@@ -26,10 +28,10 @@ body {
   min-height: 100vh;
 }
 
-@import "nav";
+@import "_nav";
 
-@import "main";
+@import "_main";
 
-@import "footer";
+@import "_footer";
 
-@import "mediaqueries";
+@import "_mediaqueries";
