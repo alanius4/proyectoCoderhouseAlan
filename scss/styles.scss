@@ -10,15 +10,60 @@
     "footer";
   grid-gap: 20px;
 }
+//flex//
 
+@mixin flex($display, $direction) {
+  display: $display;
+  flex-direction: $direction  ;
+}
 
+//para usar mixin @include flex(flex,column);//
 
 //separador//
+$valoresMargins: (
 
-.separador {
-  margin-bottom: 30px;
-  margin-top: 30px;
+pixeles: 30px,
+
+
+);
+@each $var, $px in $valoresMargins    {
+  .separador{
+    margin-bottom: $px;
+  margin-top: $px;
+  }
+
+
 }
+
+//background colors//
+
+$backgroundColors: (
+  azul : #005fa3,
+  naranja: #e77f4b,
+);
+
+@each $bkclr, $color in $backgroundColors {
+  .background-#{$bkclr}{
+    background-color: $color;
+  }
+}
+
+//colors//
+
+$colors: (
+  azul : #005fa3,
+  naranja: #e77f4b,
+  blanco: white,
+);
+
+@each $clr, $color2 in $colors {
+  .color-#{$clr}{
+    color: $color2;
+  }
+}
+
+
+
 
 //body//
 

@@ -6,27 +6,27 @@ main {
   width: 90vw;
   margin: auto, auto;
   padding: 30px 100px;
-
+  
   #articuloPrincipal {
     text-align: center;
   }
 
   #articuloContenido {
-    display: flex;
-    flex-direction: row;
+    @include flex(flex,row);
   }
 
   .containerRow {
-    display: flex;
-    flex-direction: row;
+    @include flex(flex,row);
     img {
       width: 350px;
     }
   }
+  .flotaImagen {
+    width: 250px;
+  }
 
   .containerColumn {
-    display: flex;
-    flex-direction: column;
+    @include flex(flex,column);
   }
 
   .orientacionImagenFlota {
@@ -35,15 +35,13 @@ main {
   }
 
   #formularioContacto {
-    display: flex;
-    flex-direction: row;
+    @include flex(flex,row);
     align-items: left;
     justify-content: center;
 
     text-align: auto;
     div {
-      display: flex;
-      flex-direction: column;
+      @include flex(flex,column);
       align-items: center;
       justify-content: space-between;
 

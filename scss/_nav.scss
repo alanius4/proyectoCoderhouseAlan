@@ -3,15 +3,13 @@
 
 .nav {
   grid-area: nav;
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
   align-items: center;
-  background-color: #005fa3;
-  h2{
-    color: white;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  @extend .background-azul;
+  h2 {
     margin-left: 100px;
+    @extend .separador;
+    @extend .color-blanco;
   }
 }
 .navImg {
@@ -20,8 +18,8 @@
 
 .contenedorVinculos {
   padding: 9px 25px;
-  background-color: #005fa3;
-  color: white;
+  @extend .background-azul;
+  @extend .color-blanco;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -29,6 +27,6 @@
 }
 
 .contenedorVinculos:hover {
-  background-color: #e77f4b;
-  color: #005fa3;
+  @extend .background-naranja;
+  @extend .color-azul;
 }
