@@ -70,8 +70,8 @@ main {
     flex-direction: row; }
     main .containerRow img {
       width: 350px; }
-  main .flotaImagen {
-    width: 250px; }
+  main .flotaContainer {
+    width: 350px; }
   main .containerColumn {
     display: flex;
     flex-direction: column; }
