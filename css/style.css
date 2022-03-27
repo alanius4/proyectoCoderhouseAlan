@@ -36,6 +36,14 @@
   box-sizing: border-box;
 }
 
+span.blackSP{
+  color : #1F1F2E;
+}
+span.xSP{
+  color : #FF4800;
+}
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
